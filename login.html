@@ -1,0 +1,103 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We" crossorigin="anonymous">
+    <link rel="stylesheet" href="./css/style.css">
+    <title>Login</title>
+  </head>
+  <body>
+    <div class="login_bg1"></div>
+    <div class="login_bg2"></div>
+<!--   git config --global user.email "you@example.com"
+  git config --global user.name "Your Name" -->
+
+
+    <section class="login__wrapper d-flex justify-content-center flex-column ">
+      
+       <div class="login__wrapper_content">
+        <div class=" container-fluid login__wrapper__container">
+          <div class="row justify-content-between align-items-center">
+              <div class=" col-2 logo">
+                <div class="main__logo_login">
+                  <a href="#" class="login_logo link"><img src="./icons/main_logo.svg" alt="svg"></a>
+
+                </div>
+              </div>
+              <div class="col-auto">
+                  <div class="login_lang">
+                      <span><img src="./icons/lang_login.svg" alt="svg"></span>
+                      <div class="dropdown ">
+                          <button class="btn dropdown-toggle lang_dropdown" type="button" id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false">
+                            <a href="#" class="link">RU</a> <span class="dropdown_ico"><img src="./icons/dropdown_login_lang.svg" alt="svg"></span>
+                          </button>
+                          <ul class="dropdown-menu lang_menu" aria-labelledby="dropdownMenuButton1">
+                            <li><a class="dropdown-item link drop_link" href="#">UZ</a></li>
+                            <li><a class="dropdown-item link drop_link" href="#">EN</a></li>
+                          </ul>
+                        </div>
+                  </div>
+              </div>
+          </div>
+      </div>
+
+      <div class="login__wrapper_left">
+          <form class="login_form d-flex flex-column">
+            <div class="login__abstract  d-sm-none">
+              <img src="./images/Frame.png" alt="png">
+          </div>
+              <h2 class="login_form_title">Log in to CardXabar</h2>
+              <div class="login_form_input">
+                <input type="email" class="form-control" id="exampleInputEmail1" placeholder="Username" aria-describedby="emailHelp">
+              </div>
+              <div class="login_form_input">
+                <input type="password" class="form-control" placeholder="Password" id="exampleInputPassword1">
+              </div>
+              <div class="form-check capcha d-flex align-items-center justify-content-between">
+                 <div class="capcha_main">
+                  <span class="capcha_check"><img src="./icons/captcha_check.svg" alt="svg"></span>
+                  <label class="form-check-label capcha_label" for="exampleCheck1">I'm not a robot</label>
+                 </div>
+                 <div class="capcha_logo">
+                     <a href="#" class="link"><img src="./icons/captcha.svg" alt=""></a>
+                 </div>
+              </div>
+              <button type="submit" class="btn login_form_btn">Log in</button>
+            </form>
+            
+      </div>
+      <div class="login__wrapper_right d-none d-sm-block">
+          <div class="login__abstract">
+              <img src="./images/Frame.png" alt="png">
+          </div>
+      </div>
+       </div>
+    </section>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-U1DAWAznBHeqEIlVSCgzq+c9gqGAJn5c/t99JyeKa9xxaYpSvHU5awsuZVVFIhvj" crossorigin="anonymous"></script>
+  </body>
+</html>
